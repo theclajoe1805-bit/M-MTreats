@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#page-header{
+    font-family: cursive;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+}
+.nav-links{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+}
+#main{
+    width: 512px;
+    border: 1px dashed blue;
+    padding: 18px;
+    margin-top: 2px;
+}
+#brochure-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#Pastries-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+#brunch-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+#lunch-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+#dinner-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+}

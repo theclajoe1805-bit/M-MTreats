@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    background-image: url('amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#main{
+    width: 600px;
+    margin: auto;
+    padding: 18px;
+    font-family: 'Franklin Gothic';
+    background-color: rgba(255, 255, 255, 0.3);
+}
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#page-header{
+    font-family: cursive;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    color: #aaa;
+}
+.nav-links{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+}
+.nav-links:active{
+    background: navy;
+}
+.links{
+    gap: 10px;
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#brochure-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#Pastries-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-decoration: underline;
+}
+#Pastries{
+    padding-bottom: 12px;
+    font-family: serif;
+    font-weight: 800;
+}
+#brunch-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-decoration-line: underline;
+}
+#lunch-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-decoration-line: underline;
+}
+#dinner-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-decoration-line: underline;
+}
+.Price{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+    padding-right: 60px;
+    display: flex;
+}
