@@ -29,6 +29,7 @@ p{
     padding-bottom: 12px;
     padding-left: 4px;
     color: #aaa;
+    
 }
 .nav-links{
     background-color: blue;
@@ -68,16 +69,19 @@ header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration-line: underline;
+    font-weight: 500;
 }
 #lunch-header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration-line: underline;
+    font-weight: 800;
 }
 #dinner-header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration-line: underline;
+    font-weight: 500;
 }
 .Price{
     text-decoration: none;
