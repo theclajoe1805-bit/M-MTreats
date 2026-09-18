@@ -9,13 +9,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: #aaa;
 }
 #main{
     width: 600px;
     margin: auto;
     padding: 18px;
     font-family: 'Franklin Gothic';
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(43, 35, 35, 0.3);
 }
 p{
     display: flex;
@@ -28,8 +29,7 @@ p{
     padding-right: 0px;
     padding-bottom: 12px;
     padding-left: 4px;
-    color: #aaa;
-    
+    color: #ccf;
 }
 .nav-links{
     background-color: blue;
@@ -50,43 +50,109 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(14, 9, 43);
 }
 #brochure-header{
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #ccf;
 }
-#Pastries-header{
+#pastries-header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration: underline;
+    font-family: serif;
+    font-weight: 800;
+    color: #ccf;
 }
-#Pastries{
+#pastries-body{
     padding-bottom: 12px;
     font-family: serif;
     font-weight: 800;
 }
+#breakfast-header{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-decoration-line: underline;
+    font-weight: 800;
+    font-family: serif;
+    color: #ccf;
+}
+
 #brunch-header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration-line: underline;
-    font-weight: 500;
+    font-weight: 800;
+    font-family: serif;
+    color: #ccf;
 }
 #lunch-header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration-line: underline;
+    font-family: serif;
     font-weight: 800;
+    color: #ccf;
 }
 #dinner-header{
     padding-top: 10px;
     padding-bottom:10px;
     text-decoration-line: underline;
-    font-weight: 500;
+    font-family: serif;
+    font-weight: 800;
+    color: #ccf;
 }
-.Price{
+.price{
     text-decoration: none;
-    padding: 8px;
+    padding: 3px;
     border-radius: 15px;
-    padding-right: 60px;
+    padding-right: 12px;
     display: flex;
+    font-weight: 700;
+    font-size: 17px;
+}
+.food-item{
+    font-family: serif;
+    font-weight: 800;
+    font-size: 19px;
+}
+.order{
+    background: #000000;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(14, 9, 43);
+    border-radius: 400px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    padding: 20px
+}
+.place-order{
+    color: #ddd;
+    padding-bottom: 10px;
+}
+#order-input{
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #cfd6df;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+}
+input{
+    background-color: #795aeb;
+    color: #000;
+    text-decoration-color: #fff;
+}
+input::placeholder{
+    color: #000;
 }
