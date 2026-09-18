@@ -120,14 +120,13 @@ header{
     font-size: 19px;
 }
 .order{
-    background: #000000;
     flex-direction: column;
     display: flex;
     align-items: center;
     font-family: serif;
     font-size: 30px;
     font-weight: 500;
-    background-color: rgb(14, 9, 43);
+    background-color: #1137;
     border-radius: 400px;
     position: fixed;
     bottom: 20px;
@@ -139,6 +138,7 @@ header{
 .place-order{
     color: #ddd;
     padding-bottom: 10px;
+    text-align: center;
 }
 #order-input{
     width: 70%;
