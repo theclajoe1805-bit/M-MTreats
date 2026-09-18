@@ -124,8 +124,7 @@ header{
     display: flex;
     align-items: center;
     font-family: serif;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 20px;
     background-color: #1137;
     border-radius: 400px;
     position: fixed;
@@ -137,10 +136,10 @@ header{
 }
 .place-order{
     color: #ddd;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     text-align: center;
 }
-#order-input{
+#order-text{
     width: 70%;
     padding: 15px;
     border: 1px solid #cfd6df;
@@ -148,11 +147,34 @@ header{
     font-size: 16px;
     color: #000;
 }
-input{
+textarea{
     background-color: #795aeb;
     color: #000;
     text-decoration-color: #fff;
+    width: 80%;
+    min-height: 30px;
+    max-height: 200px;
+    field-sizing: content;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
 }
-input::placeholder{
+textarea::placeholder{
     color: #000;
+}
+.order button{
+    position: absolute;
+    right: 70px;
+    bottom: 35px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1135;
+}
+button:hover{
+    background: rgb(14, 9, 43);
+}
+button:active{
+    background-color: #795aeb;
 }
